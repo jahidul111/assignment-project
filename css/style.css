@@ -118,7 +118,7 @@ span{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    gap: 130px;
+    padding-top: 130px;
 
    
 }
@@ -139,5 +139,85 @@ span{
 .move1{
     width: 130px;
     height: 64px;
-    gap: 15px;
+   
 }
+.footer-1{
+    gap: 10px;
+    width: 1922px;
+    height: 449px;
+    background-color: #272727;
+}
+.footer-heading{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+    padding-top: 130px;
+
+}
+.footer-text{
+    
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    padding-left: 648px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+    
+}
+#img2{
+    padding-left: 8px;
+}
+#img3{
+    padding-left: 8px;
+}
+#img4{
+    padding-left: 8px;
+}
+.last{
+    padding-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 16px;
+}
+.contacts{
+    height: 50px;
+    width: 1920px;
+    background-color: pink;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+
+
+}
+.call {
+    display: flex;
+    gap: 100px;
+    background: #ecf5ab;
+    margin-top: 10px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;}
+
+
+.contact input[type="text"], .contact input[type="email"],
+    textarea {
+        display: block;
+        margin-bottom: 25px;
+        padding: 18px 35px;
+        color: #757575;
+        border-radius: 5px;
+        background: #FFF;
+        border: 0;
+        width: 100%;
+    }
