@@ -157,7 +157,9 @@ span{
 
 }
 .footer-text{
-    
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
     width: 625px;
     color: rgba(255, 255, 255, 0.90);
     padding-left: 648px;
@@ -251,10 +253,15 @@ span{
 
 
 }
+.optional-img{
+    display: flex;
+    justify-content: center;
+}
 #mark2{
     width: 464px;
     height: 538px;
     flex-shrink: 0;
+    margin-left: 10px;
     border-radius: 300px 300px 0px 0px;
     background:  rgba(5, 151, 160, 0.15);
     
@@ -264,6 +271,7 @@ span{
     width: 464px;
     height: 538px;
     flex-shrink: 0;
+    margin-left: 10px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 
