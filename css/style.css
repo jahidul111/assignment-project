@@ -28,16 +28,16 @@
 .btn{
     display: inline-flex;
     padding: 20px 43px;
-    
+    color: #FFF;
     border-radius: 8px;
     background: #E55473;
-    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
  
 }
 .main-content{
+    margin-top: 10px;
     display: flex;
     width: 1922px;
     height: 620px;
@@ -72,15 +72,16 @@ span{
     height: 420px;
     
 }
- .btn .move{
+ 
+ .move{
     gap: 10px;
     display: inline-flex;
     padding: 18px 35px;
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: #E55473;
-}
+    background: #E55473;}
+
 .content-heading-1{
     color: #272727;
     text-align: center;
@@ -107,7 +108,7 @@ span{
 }
 .main-content-3{
     margin-top: 130px;
-    background-image: url(/images/Rectangle\ 9.png);
+    background-image: url(../images/Rectangle9.png);
     width: 1440px;
     height: 449px;
     margin-left: 240px;
